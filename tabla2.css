@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto+Condensed:wght@100&display=swap');
+body {
+    justify-content: center;
+    text-align: center;
+}
+main {
+    justify-content: center;
+}
+table {
+    text-align: center;
+    font-size: 1.4em;
+    border-collapse: collapse;
+    width: 1000px;
+    margin: 10px auto;
+}
+thead th {
+    background-color: rgb(41, 39, 39);
+    color: rgb(190, 190, 190);
+    text-align: left;
+    font-family:  Roboto Condensed ;
+}
+tbody td {
+    text-align: left;
+}
+tr:nth-child(even) td {
+    background-color:rgb(194, 194, 194)
+}
+tr:nth-child(odd) td {
+    background-color: rgb(255, 255, 255);
+}
+table td {
+    width: 500px;
+border-bottom: 1px solid #0000006c;
+
+}
+/*AGregar clase al td de la img*/

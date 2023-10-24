@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(188, 202, 214);
+    background-color: rgb(188, 50px2, 214);
     text-align: center;
     justify-content: center;
 }
@@ -15,7 +15,7 @@ table{
     margin: 10px auto;
 }
 tr:nth-child(even) td {
-    background-color: rgb(203, 255, 251);
+    background-color: rgb(50px3, 255, 251);
 }
 tr:nth-child(odd) td {
     background-color: rgb(255, 189, 189);
