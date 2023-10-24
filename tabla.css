@@ -1,8 +1,26 @@
 body {
-    background-color: aliceblue;
+    background-color: rgb(188, 202, 214);
     text-align: center;
-}
-table {
-    display: flex;
     justify-content: center;
+}
+main {
+    background-color: aliceblue;
+}
+table{
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 1000px;
+    margin: 10px auto;
+}
+tr:nth-child(even) td {
+    background-color: rgb(203, 255, 251);
+}
+tr:nth-child(odd) td {
+    background-color: rgb(255, 189, 189);
+}
+table td {
+    width: 500px;
+border: 1px solid #000;
 }
