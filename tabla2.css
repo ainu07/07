@@ -36,5 +36,18 @@ border-bottom: 1px solid #0000006c;
 }
 /*AGregar clase al td de la img*/
 .alinear {
-    text-align: center;
+    text-align: center
+}
+footer {
+    background-color: rgb(255, 151, 186);
+    display: flex;
+    justify-content: center;
+}
+footer li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 auto;
+    margin: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4em;
 }
