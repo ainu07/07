@@ -21,6 +21,7 @@ thead th {
 }
 tbody td {
     text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 tr:nth-child(even) td {
     background-color:rgb(194, 194, 194)
@@ -34,3 +35,6 @@ border-bottom: 1px solid #0000006c;
 
 }
 /*AGregar clase al td de la img*/
+.alinear {
+    text-align: center;
+}
